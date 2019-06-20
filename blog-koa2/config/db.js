@@ -26,10 +26,10 @@ if (env === 'production') {
     // mysql
     MYSQL_CONF = {
         host:'localhost',
-        user:'lence',
-        password:'szy0515@Lence',
+        user:'xxxx',
+        password:'xxxxx',
         port:'3306',
-        database:'myblog',
+        database:'xxxx',
     }
     // redis
     REDIS_CONF = {
