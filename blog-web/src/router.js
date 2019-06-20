@@ -36,11 +36,6 @@ export default new Router({
             component: () => import(/* webpackChunkName: "blog" */ './views/essay/essay.vue')
         },
         {
-            path: '/login',
-            name: 'Login',
-            component: () => import(/* webpackChunkName: "blog" */ './views/user/login.vue')
-        },
-        {
             path: '/createBlog',
             name: 'CreateBlog',
             component: () => import(/* webpackChunkName: "blog" */ './views/blog/createBlog.vue')
@@ -85,7 +80,7 @@ export default new Router({
         {
             path: '/editBlog',
             name: 'editBlog',
-            component: () => import(/* webpackChunkName: "user" */ './views/blog/editBlog')
+            component: () => import(/* webpackChunkName: "admin" */ './views/blog/editBlog')
         }
     ]
 })
